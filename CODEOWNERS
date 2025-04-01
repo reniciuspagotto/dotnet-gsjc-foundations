@@ -1,10 +1,6 @@
-# Assign the devops team to the entire repository
-* @your-org/devops
-
-# Assign the frontend team to JavaScript files
-*.js @your-org/frontend
-
-# Assign specific team to a directory
-/docs @your-org/docs
-
+# Isso fará você ser designado para todos os arquivos
 * @reniciuspagotto
+
+# Ou você pode ser mais específico
+*.js @reniciuspagotto
+/src/backend/ @reniciuspagotto
